@@ -44,6 +44,7 @@ import Button from 'primevue/button';
 import Menubar from 'primevue/menubar';
 import InputText from 'primevue/inputtext';
 
+
 export default {
   components: { Button, Menubar, InputText },
   data() {
@@ -100,7 +101,9 @@ export default {
       this.authStore.getUser();
     }
   },
+
 };
+
 </script>
 
 <style scoped>
